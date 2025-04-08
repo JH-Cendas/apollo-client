@@ -314,6 +314,6 @@ export const enum defaultCacheSizes {
   "cache.fragmentQueryDocuments" = 1000,
   "removeTypenameFromVariables.getVariableDefinitions" = 2000,
   "inMemoryCache.maybeBroadcastWatch" = 5000,
-  "inMemoryCache.executeSelectionSet" = 50000,
-  "inMemoryCache.executeSubSelectedArray" = 10000,
+  "inMemoryCache.executeSelectionSet" = 500000,
+  "inMemoryCache.executeSubSelectedArray" = 100000,
 }
